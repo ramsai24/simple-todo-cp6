@@ -1,1 +1,25 @@
 /* Write your CSS here */
+.each-todo-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* border: 1px solid green; */
+}
+
+.delete-btn {
+  border: 1px solid #ff0b37;
+  background-color: transparent;
+  color: #ff0b37;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-weight: 500;
+}
+.todo-description {
+  font-size: 18px;
+  font-weight: 500;
+}
